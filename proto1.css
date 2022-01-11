@@ -1,0 +1,340 @@
+body{
+background:#eee;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    grid-auto-rows:minmax(100px, auto);
+    grid-gap:2em;
+    background: #eee;
+    color: black;
+  
+  }
+  .wrapper >div{
+    background:#eee;
+    padding:1em;
+    
+  }
+  .wrapper >div:nth-child(odd){
+    /* background:#ddd; */
+    /* margin-left: 75px; */
+    background:#ddd;
+   
+  }
+  .box1{
+    
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-auto-rows:minmax(50px, 300px);
+    grid-gap:2em;
+  }
+  .box1 >div{
+      /* background: chocolate; */
+      padding: 1em;
+  }
+  .inTemp{
+      /* grid-row: 1;
+      grid-column: 1/2;
+       */
+       
+       grid-row: 1;
+       grid-column: 1/2;
+  }
+  .LightInten{
+      /* grid-column: 2-3;
+      grid-row: 1/3; */
+      grid-column: 2/4;
+      grid-row: 1/2;
+      margin-top: 65px;
+    
+          
+  }
+
+  .humidi{
+   /* grid-row: 2;
+   grid-column: 1/2; */
+   grid-row: 2;
+   grid-column: 1/2;
+   margin-top: -380px;
+  }
+  .spending{
+   /* grid-column: 1/20;
+   grid-row: 3/4; */
+   grid-row: 3;
+   grid-column: 1/3;
+   margin-top: -800px;
+  }
+  
+  /* .Mode{
+      grid-row: 4;
+  } */
+  
+  .box2{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-auto-rows:minmax(50px, 400px);
+
+    grid-gap:1em;
+  }
+  .box2 >div{
+      /* background: rgb(187, 157, 136); */
+      padding: 1em;
+  }
+  .outTemp{
+      grid-column: 1/6;
+      grid-row: 1;
+  }
+  .atHome{
+      grid-column: 1/9;
+      grid-row: 3;
+      margin-top: -250px;
+    
+  }
+  .Next{
+      grid-column: 5/6;
+      grid-row: 3;
+      margin-top: -250px;
+  }
+  .txt_nama{
+      grid-column: 1/3;
+      font-weight: bolder;
+      justify-items: end;
+      align-items: end;
+      
+      
+  }
+  .populer_dev_text{
+      grid-column: 1/9;
+      margin-top: -370px;
+      font-weight: bolder;
+  }
+  .kulkas{
+      grid-column: 1/2;
+      margin-top: -600px;
+  }
+  .ac{
+    margin-top: -660px;
+      grid-column: 1/2;
+  }
+  .vc{
+      grid-column: 2/9;
+        grid-row: 5;
+        margin-top: -600px;
+  }
+  .wash{
+      grid-column: 2/9;
+      grid-row: 6;
+      margin-top: -740px;
+     
+  }
+  .tv{
+      margin-top: -610px;
+      grid-row: 6;
+      grid-column: 2/9;
+  }
+  .Logo{
+      width: 50px;
+      height: 50px;
+      margin-left: 20px;
+  }
+  .addDevices{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  .LogoSearch{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.LogoNotif {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.LogoSetting{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.LogoProfile{
+    width: 30px;
+    height: 30px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+/* .align-items-start{
+    background: #6655cc;
+    
+} */
+.nav{
+    /* background: #6655cc; */
+}
+/* .nav-link{
+    color: white;
+} */
+#v-pills-home-tab{
+    color: black;
+   
+
+}
+#v-pills-rooms-tab{
+    color: black;
+
+}
+#v-pills-devices-tab{
+    color: black;
+    
+}
+#v-pills-security-tab{
+    color: black;
+    
+}
+
+.L_homee{
+  
+    width: 30px;
+    height: 30px;
+    margin-left: 6px;
+}
+.rooms{
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+}
+.devices{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.security{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+   
+}
+.nav-link{
+   margin: 10px;
+   
+}
+
+.wrapper1{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    grid-auto-rows:minmax(100px, auto);
+    grid-auto-columns: minmax(100px,auto);
+    grid-gap:2em;
+    background: #eee;
+    color: black;
+}
+.wrapper1 >div{
+    background:#eee;
+    padding:2em;
+}
+.wrapper1 >div:nth-child(odd){
+    background:#ddd;
+   
+  }
+
+.box3{
+    
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-auto-rows:minmax(50px, auto);
+    grid-auto-columns:minmax(50px, auto);
+    grid-gap:2em;
+}
+.box3 >div{
+    background: white;
+    grid-auto-rows:minmax(50px, auto);
+    grid-auto-columns: minmax(50px, auto);
+    padding-left: 60px;
+    padding-top: 40px;
+    
+
+}
+
+.DesignHouse{
+    grid-column: 1/5;
+    grid-row: 1/5;
+}
+.L_L{
+    width: 50px;
+    height: 50px;
+}
+.livingroom:hover{
+    grid-column: 5/6;
+    grid-row: 1;
+     background: #6857BB;
+     color: white;
+}
+.L_B{
+    width: 50px;
+    height: 50px;
+}
+.bedroom:hover{
+    grid-column: 5/6;
+    grid-row: 2;    
+    background: #6857BB;
+     color: white;
+}
+
+
+.L_K{
+    width: 50px;
+    height: 50px;
+}
+.kitchen:hover{
+    grid-column: 5/6;
+    grid-row: 3;    
+    background: #6857BB;
+     color: white;
+}
+.L_H{
+    width: 50px;
+    height: 50px;
+}
+.hallway:hover{
+    grid-column: 5/6;
+    grid-row: 4;  
+    background: #6857BB;
+     color: white;  
+}
+
+.box4{
+    
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-auto-rows:minmax(50px, auto);
+    grid-auto-columns:minmax(50px, auto);
+    grid-gap:2em;
+}
+.box4 >div{
+    /* background: white; */
+    grid-auto-rows:minmax(50px, auto);
+    grid-auto-columns: minmax(50px, auto);
+    
+
+}
+.tempRoom{
+    grid-column: 1/6;
+    grid-row: 1;
+}
+.r_temp{
+    width: 100%;
+}
+.d_Living{
+    grid-row: 2;
+    grid-column: 1/6;
+    margin-top: -170px;
+}
+.LD{
+    width: 450px;
+    height: 550px;
+}
